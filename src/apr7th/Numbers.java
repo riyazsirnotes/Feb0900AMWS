@@ -6,8 +6,8 @@ public class Numbers {
 	
 	public void setXY(int x,int y)
 	{
-		x=x;
-		y=y;
+		this.x=x;
+		this.y=y;
 	}
 	
 	public void getXY()

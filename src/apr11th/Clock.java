@@ -1,25 +1,28 @@
-package apr10th;
+package apr11th;
 
 public class Clock {
 	
 	int hr,min,sec;
 	
-	public  Clock()
+	public Clock()
 	{
-		System.out.println("Entered in  to Constructor ...");
+		hr=10;
+		min=10;
+		sec=10;
+		
 	}
-	public void setClock(int hr)
+	
+	public Clock(int hr)
 	{
 		this.hr=hr;
 	}
 	
-	public void setClock(int hr,int min)
+	public Clock(int hr,int min)
 	{
 		this.hr=hr;
 		this.min=min;
 	}
-	
-	public void setClock(int hr,int min,int sec)
+	public Clock(int hr,int min,int sec)
 	{
 		this.hr=hr;
 		this.min=min;
