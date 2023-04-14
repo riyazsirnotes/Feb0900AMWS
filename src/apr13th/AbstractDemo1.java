@@ -9,6 +9,8 @@ public class AbstractDemo1 {
 		
 		obj1.compute(10, 20);
 		
+		obj1.greet();
+		
 		Numbers obj2=new Sub();
 		
 		obj2.compute(20, 30);
